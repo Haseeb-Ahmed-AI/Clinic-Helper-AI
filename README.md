@@ -2,24 +2,29 @@ RAG-Based Medical Assistant
 
 
 Overview:
+
 This Project addresses challenges like information overload, enabling faster decision-making, improving diagnostics, and standardizing care practices. The system leverages the Merck Manuals, a comprehensive medical reference, to answer common medical queries such as diagnostic assistance, drug information, treatment plans, specialty knowledge, and critical care protocols.
-
-
 
 The project is implemented as a Jupyter notebook (medical1.ipynb) and uses various Python libraries to process the Merck Manuals PDF, create a knowledge base, and generate responses to medical queries.
 
 Features:
 
 Diagnostic Assistance: Retrieve symptoms and treatments for conditions (e.g., "What are the common symptoms and treatments for pulmonary embolism?").
+
 Drug Information: Provide trade names and details for medications (e.g., "Can you provide the trade names of medications used for treating hypertension?").
+
 Treatment Plans: Suggest first-line and alternative treatments (e.g., "What are the first-line options for managing rheumatoid arthritis?").
+
 Specialty Knowledge: Outline diagnostic steps for specific fields (e.g., "What are the diagnostic steps for suspected endocrine disorders?").
+
 Critical Care Protocols: Deliver protocols for urgent scenarios (e.g., "What is the protocol for managing sepsis in a critical care unit?").
+
 Prerequisites
 Python 3.13 or higher
 Git for version control
 A virtual environment (recommended)
 Installation
+
 Clone the Repository:
 
 git clone https://github.com/your-username/RAGbased_medical_assistant.git
